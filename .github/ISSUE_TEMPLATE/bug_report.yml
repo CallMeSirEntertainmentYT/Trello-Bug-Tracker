@@ -20,7 +20,7 @@ body:
     attributes:
       label: Name
       description: The name of the buggy schematic, map, or mod.
-      placeholder: Must be the EXACT name, or I cannot fix it.
+      placeholder: Must be the EXACT name!
     validations:
       required: true
   - type: textarea
