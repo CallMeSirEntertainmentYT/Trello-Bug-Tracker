@@ -10,26 +10,33 @@ body:
       description: Is it a schematic, map, or a mod?
       multiple: false
       options:
-        - Map
         - Schematic
+        - Map
         - Mod
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The name of the buggy schematic, map, or mod.
+      placeholder: Must be the EXACT name, or I cannot fix it.
     validations:
       required: true
   - type: textarea
     id: issue
     attributes:
-      label: Issue
-      description: Explain your issue in detail.
+      label: What happened?
+      description: Explain the bug in detail.
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce
-      description: How you came across the issue, and what exactly you did to make the bug happen.
+      label: Steps to reproduce:
+      description: How you came across the issue, and what exactly you did that caused the bug.
     validations:
       required: true
- 
   - type: checkboxes
     id: agreement
     attributes:
@@ -40,3 +47,5 @@ body:
           required: true
         - label: I have searched the closed and open issues to make sure that this problem has not already been reported.
           required: true
+        - label: I am a Patron.
+          required: false
