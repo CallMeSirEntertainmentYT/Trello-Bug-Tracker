@@ -11,6 +11,8 @@ body:
         - Map
         - Schematic
         - Mod
+      validations:
+        required: true
   - type: textarea
     id: issue
     attributes:
