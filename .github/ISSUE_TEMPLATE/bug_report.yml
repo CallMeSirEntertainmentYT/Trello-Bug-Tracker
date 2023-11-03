@@ -3,15 +3,14 @@ description: Report a bug
 labels: ["bug"]
 
 body:
-
   - type: dropdown
     id: bugtype
     attributes:
       label: Is it a map, schematic, or mod?
-    options:
-      -Map
-      -Schematic
-      -Mod
+      options:
+        - Map
+        - Schematic
+        - Mod
   - type: textarea
     id: issue
     attributes:
