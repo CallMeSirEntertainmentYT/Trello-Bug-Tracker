@@ -6,12 +6,15 @@ body:
   - type: dropdown
     id: bugtype
     attributes:
-      label: Is it a map, schematic, or mod?
+      label: Type
+      description: Is it a schematic, map, or a mod?
+      multiple: false
       options:
         - Map
         - Schematic
         - Mod
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: issue
     attributes:
