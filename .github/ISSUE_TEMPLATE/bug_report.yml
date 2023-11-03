@@ -33,7 +33,7 @@ body:
   - type: textarea
     id: reproduction
     attributes:
-      label: Steps to reproduce:
+      label: Steps to reproduce
       description: How you came across the issue, and what exactly you did that caused the bug.
     validations:
       required: true
