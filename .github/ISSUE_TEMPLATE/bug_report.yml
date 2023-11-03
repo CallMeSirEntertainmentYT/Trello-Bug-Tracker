@@ -4,6 +4,17 @@ labels: ["bug"]
 
 body:
 
+  - type: dropdown
+    id: bugtype
+    attributes:
+      label: Is it a map, schematic, or mod?
+    options:
+      -label: Map
+      required: true
+      -label: Schematic
+      required: true
+      -label: Mod
+      required: true
   - type: textarea
     id: issue
     attributes:
