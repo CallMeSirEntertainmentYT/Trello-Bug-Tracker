@@ -47,5 +47,7 @@ body:
           required: true
         - label: I have searched the closed and open issues to make sure that this problem has not already been reported.
           required: true
-        - label: I am a Patron.
+        - label: I have checked that Mindustry is up to date.
+          required: true
+        - label: I have updated the mod. (Only required if you are reporting a bug with a mod)
           required: false
