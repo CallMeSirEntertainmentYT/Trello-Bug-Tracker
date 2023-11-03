@@ -9,12 +9,9 @@ body:
     attributes:
       label: Is it a map, schematic, or mod?
     options:
-      -label: Map
-      required: true
-      -label: Schematic
-      required: true
-      -label: Mod
-      required: true
+      -Map
+      -Schematic
+      -Mod
   - type: textarea
     id: issue
     attributes:
