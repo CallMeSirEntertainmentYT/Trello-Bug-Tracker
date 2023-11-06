@@ -40,14 +40,12 @@ body:
   - type: checkboxes
     id: agreement
     attributes:
-      label: Submission
+      label: Confirmation
       description: Check the boxes to confirm that you have read the lines below.
       options:
         - label: I have checked the Trello and made sure this has not already been fixed.
           required: true
         - label: I have searched the closed and open issues to make sure that this problem has not already been reported.
           required: true
-        - label: I have checked that Mindustry is up to date.
-          required: true
-        - label: I have updated the mod. (Only required if you are reporting a bug with a mod)
+        - label: I have made sure the mod is up to date. (Only required if you are reporting a bug with a mod)
           required: false
